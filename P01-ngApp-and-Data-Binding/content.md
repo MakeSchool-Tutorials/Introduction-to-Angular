@@ -35,7 +35,7 @@ Please follow along and make the most basic angular app you can:
 
 This is what is called **two way data binding**. As you type, you update `$scope` Angular's data model. Every time the model is updated, Angular updates the views to match the new state of the model. This is called Angular's **Digest Loop**.
 
-![digestcycle](/images/digest.png)
+![digestcycle](/../images/digest.png)
 
 In jQuery this would be like having a `change()` listener on every single element and a function that updates the DOM correspondingly. Like this but for every element on the page:
 

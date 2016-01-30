@@ -6,7 +6,7 @@ Directives are another way to put related code together and make a self-containe
 
 An analogy for directives is if you think of the views of your app like a butterfly collection. Each butterfly is a directive. Angular's concept of directives helps separate concerns and duties of code while making your views dry and logic-less. Also Angular directive are very modular and can be added, shared, and swapped between projects.
 
-![butterflys](/images/butterflies.jpeg)
+![butterflys](/../images/butterflies.jpeg)
 
 Checkout [angular-ui](https://angular-ui.github.io/) and [ng-modules](http://ngmodules.org/) to find popular Angular Directives and add them to your projects.
 

@@ -30,7 +30,7 @@ Uncaught Error: [$injector:modulerr] http://errors.angularjs.org/1.4.4/$injector
 
 AngularJS has a rather strange way to debug. It actually sends your errors to an Angular documention website. So when you get an error, follow the links until you get to the actual error message. Here is a video illustrating how to debug angular:
 
-[![screencast](images/video.png)](https://youtu.be/P0PzejNU6Os?t=4m24s)
+[![screencast](../images/video.png)](https://youtu.be/P0PzejNU6Os?t=4m24s)
 
 > **Remember** - about 50% of errors in Angular are syntax errors and the other 50% are injection errors, meaning you are calling a module or directive that you haven't injected into a controller yet.
 

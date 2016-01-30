@@ -1,4 +1,4 @@
-# Intro to AngularJS
+## Intro to AngularJS
 
 "AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write."
 > References: [Angular Docs](https://docs.angularjs.org/guide/introduction)
@@ -9,7 +9,6 @@ There are lots of front end frameworks out there and opinions and biases run hot
 
 1. 4,300 AngularJS jobs listed on Linkedin vs. 300 ReactJS, 150 EmberJS, 200 BackboneJS.
 1. 4,147 watchers on AngularJS, 46,000 stars, 20,000 forks vs. 2,500 watchers, 35,000 stars, and 5,000 forks.
-1. 
 
 ## Front End Frameworks or "Client-Side Architecture"
 
@@ -61,13 +60,13 @@ Read this [Introduction to $scope](https://docs.angularjs.org/guide/scope) From 
 
 Think of `$scope` as the string between two cans: one can is the views, the other is your linked controller.
 
-![telephone](images/stringtelephone.jpg)
+![telephone](../images/stringtelephone.jpg)
 
 ## Nested `$scopes` and `$rootScope`
 
 Scopes are arranged in a nested tree structure. Controllers are nested inside each other, and this nests their scopes. The parent or root scope of all scopes is `$rootScope`. Don't worry too much now about access data across scopes, just be aware of their nested structure.
 
-![nested-scopes](images/nested-scopes.png)
+![nested-scopes](../images/nested-scopes.png)
 
 ## Module Dependency Injection
 

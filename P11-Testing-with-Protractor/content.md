@@ -42,7 +42,7 @@ To do integration tests on AngularJS, the AngularJS team recommends [Protractor]
 
 Protractor is the AngularJS-specific glue that connects [WebdriverJS](https://code.google.com/p/selenium/wiki/WebDriverJs) - agnostic javascript bindings for  [Selenium](http://en.wikipedia.org/wiki/Selenium_%28software%29) that commands your browser, and [Jasmine.js](http://jasmine.github.io/) which affords some nice behavior-driven test sugar.
 
-![alt tag](http://engineering.wingify.com/images/2015/02/2.png)
+![alt tag](http://engineering.wingify.com/../images/2015/02/2.png)
 
 ## Protractor Setup - 30 min
 
