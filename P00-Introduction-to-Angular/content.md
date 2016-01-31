@@ -3,12 +3,24 @@
 "AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write."
 > References: [Angular Docs](https://docs.angularjs.org/guide/introduction)
 
-## Why Study Angular?
+# Pair Up - How to Pick Which Tool to Learn? - 20min
 
-There are lots of front end frameworks out there and opinions and biases run hot, so let's clear the air for why we are learning AngularJS and not BackboneJS or ReactJS or any of the other awesome frameworks.
+There are lots and lots of tools out there to use. How do we go about picking the right one?
 
-1. 4,300 AngularJS jobs listed on Linkedin vs. 300 ReactJS, 150 EmberJS, 200 BackboneJS.
-1. 4,147 watchers on AngularJS, 46,000 stars, 20,000 forks vs. 2,500 watchers, 35,000 stars, and 5,000 forks.
+Pair up with a buddy and discuss the strategies you could take to pick a tool for a project, or a tool to learn in general? Should you learn the one that is the most popular? That has the most jobs available in it? That fits what job you want? That is tailored to a specific project's specs?
+
+How could you go about answering these questions about a specific framework or language?
+
+Slack Braus the answer you come up in 3-5 sentences.
+
+<!-- ```[solution]
+  * [Compare their Github Stats](https://infogr.am/githuborg-8375525)
+  * [Compare their Module Count](http://www.modulecounts.com/)
+  * Compare how many job postings there are on Hacker News Jobs and on Linkedin.
+  * ...
+``` -->
+
+# Learn about Front End Frameworks - 2hrs
 
 ## Front End Frameworks or "Client-Side Architecture"
 
@@ -30,19 +42,24 @@ Now add a little jQuery, now the client can do some things independently but it 
 
 What if you could put the client in the driver's seat and make it state-aware? Then when you updated state, the view would reflect the change without any extra effort. This is largely the goal of front end frameworks and AngularJS in specific.
 
-## Why Angular?
+## What is Next? Isomorphic Javascript?
 
-There are many, many JavaScript front end frameworks out there. Why are we focusing on AngularJS?
+There are two major complaints about SPAs:
 
-Check out [this comparison](https://infogr.am/githuborg-8375525) of the four top front end frameworks' activity on GitHub. You'll see that AngularJS is definitely the most active.
+1. They are not friendly to Search Engine Optimization (SEO) since the robots who crawl the internet don't run the JavaScript to get the actual content from the server.
+2. That the initial load of SPA apps is slow.
 
-But *What about ReactJS*? Isn't it trending like crazy? It is! And you should definitely head over to their docs and familiarize yourself with it; however, AngularJS is a better place to start for a deap dive into front end frameworks because it is a more mature and full featured project.
+This has lead to a new paradigm for the web called *Isomorphic Javascript*. In this paradigm developers write packages that run on the server and the client and therefore do both server and client-side templating. This speeds up the initial load and appeases the SEO robot overlords.
 
-But *What about Angular2*? Isn't Angular 1 basically dead in the water? Indeed! Angular 1.x is not seeing a ton of activity because Angular2 is a complete rebuild of Angular 1 incorporating many of the innovations discovered and implemented by React such as the Shadow DOM and uni-directional data flow.
+Probably the most famous and widely used Isomorphic framework is Meteor. Airbnb made a framework based on Backbone.js called Rendr. ReactJS is a growing templating module that can be extended with Browserify and Webpack to be isomorphic.
 
-## Readings
+# Read [Airbnb's Article on Isomorphic Javascript](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/) - 20min
 
-Read the [Introductory docs for Angular]( https://docs.angularjs.org/guide/introduction) and answer the following questions:
+# Front End Framework Battle Royal - 45min
+
+Form into groups of at least 3 participants. Each person pick one of the leading [front end frameworks](https://github.com/showcases/front-end-javascript-frameworks). Don't forget [Angular2](http://angular.io/).
+
+# Read [Introductory docs for Angular]( https://docs.angularjs.org/guide/introduction) and Answer these Questions:
 
 1. How does Angular differ from jQuery in how it keeps track of state and manipulates the DOM?
 2. What is a two way data binding exactly and how would you use it?
@@ -50,7 +67,9 @@ Read the [Introductory docs for Angular]( https://docs.angularjs.org/guide/intro
 4. How does Angular make it easier to make full featured Single Page Applications?
 5. What is "dependency injection" in Angular?
 
-Read this [Introduction to $scope](https://docs.angularjs.org/guide/scope) From the top through the **Scope Life Cycle** section and answer these questions:
+# Read this [Introduction to $scope](https://docs.angularjs.org/guide/scope)
+
+From the top through the **Scope Life Cycle** section and answer these questions:
 
 1. What is `$scope`? How will you use it in AngularJS?
 2. What is the relationship between any $scope and $rootScope?
