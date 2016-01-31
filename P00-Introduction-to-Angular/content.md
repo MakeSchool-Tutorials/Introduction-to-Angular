@@ -99,9 +99,19 @@ $http - this is a native AngularJS module for making $http requests
 $routeParams - this is a module from ngRoute for accessing URL params.
 ```
 
+The following two blocks of code are equivalent. But the second one can be minified.
+```js
+app.controller("GuitarDetailsController", function ($scope, $http, $routeParams) {
+  $http.get('js/data.json').success (function(data){
+    $scope.guitarVariable = data;
+    $scope.whichGuitar = $routeParams.guitarID;
+  });
+});
+```
+
 ```js
 app.controller("GuitarDetailsController", ['$scope','$http','$routeParams',
- function($scope, $http, $routeParams)
+  function ($scope, $http, $routeParams)
   {
     $http.get('js/data.json').success (function(data){
       $scope.guitarVariable = data;
@@ -110,3 +120,5 @@ app.controller("GuitarDetailsController", ['$scope','$http','$routeParams',
   }]
 );
 ```
+
+## Nice Work! On to the Next Article.
