@@ -1,3 +1,8 @@
+---
+title: "Testing with Protractor"
+slug: testing-with-protractor
+---
+
 # Protractor: AngularJS Integration Tests
 
 > Objective: Be able to design and deploy integration tests for an AngularJS project using the Protractor framework

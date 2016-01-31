@@ -1,3 +1,8 @@
+---
+title: "Authenication"
+slug: authentication
+---
+
 # Authentication with JWT (JSON Web Tokens)
 
 | Objectives |

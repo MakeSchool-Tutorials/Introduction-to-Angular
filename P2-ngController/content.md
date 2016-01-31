@@ -1,3 +1,8 @@
+---
+title: "Adding Controllers with ngController"
+slug: adding-controllers-with-ngcontroller
+---
+
 # Adding Controllers with ngController
 
 > **Quick Note** - directives are written two ways: `ng-route`, `ng-show`, `ng-controller` and `ngRoute`, `ngShow`, `ngController`. They are referring to the same directive. In code it is always hyphenated, but written out it is often camel case.

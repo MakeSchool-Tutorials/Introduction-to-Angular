@@ -1,3 +1,8 @@
+---
+title: "$http"
+slug: http
+---
+
 # $http
 
 AngularJS has a number of **Native Services** that are just like the services we were making, but they are shipped with Angular. You can tell a native service because it is prefixed by a `$`. Native services are services so they are singletons that group functions related to a particular action or activity. `$scope` itself is a native Angular service that groups together all the functions and variables exposed in the template. `$rootScope` the parent of all nested scopes is also a native service.

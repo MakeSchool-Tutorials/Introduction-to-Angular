@@ -1,3 +1,8 @@
+---
+title: "Angular Services"
+slug: angular-services
+---
+
 # Angular Services
 
 Angular services are for DRYing up and refactoring code. Angular services are technically "singletons", meaning that they are snippets of code that you would otherwise repeat here and there in the controllers of your app.

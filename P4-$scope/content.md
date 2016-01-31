@@ -1,3 +1,8 @@
+---
+title: "$scope"
+slug: scope
+---
+
 # ngClick and ngSubmit
 
 Besides keeping variables in `$scope` we can also expose functions to the template through `$scope`. We can then use native angular directives to have these functions run dynamically on clicks and form submits with `ng-click` and `ng-submit`.
