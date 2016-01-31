@@ -7,14 +7,6 @@
 
 h1 gets a checkbox at the end of the section "#"
 
-
-Server Architecture
-Client-side Architecture
-Isomorphic Javascript
-
-read about airbnb's isomorphic article - http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/
-isomorphic tutorial - https://github.com/spikebrehm/isomorphic-tutorial
-
 1. intro.md
 2. ng-app-and-data-binding.md
 3. ng-controller.md
