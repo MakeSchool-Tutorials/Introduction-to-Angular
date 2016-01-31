@@ -1,6 +1,6 @@
 ---
-title: "Native Directories"
-slug: native-directories
+title: "Native Directives"
+slug: native-directives
 ---
 
 # Angular's Native Directives
