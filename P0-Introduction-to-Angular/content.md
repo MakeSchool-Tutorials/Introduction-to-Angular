@@ -3,14 +3,12 @@ title: "Introduction to Angular"
 slug: introduction-to-angular
 ---
 
-## Intro to AngularJS
-
 "AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write."
 > References: [Angular Docs](https://docs.angularjs.org/guide/introduction)
 
-# Pair Up - How to Pick Which Tool to Learn? - 20min
+# How to Pick Which Tool to Learn? - 20min
 
-There are lots and lots of tools out there to use. How do we go about picking the right one?
+Usually if we take an engineering job we just have to learn whatever languages or frameworks that company uses. But sometimes we get to choose what language or framework we want to use. And there are lots and lots of tools out there to use. How do we go about picking the right one?
 
 Pair up with a buddy and discuss the strategies you could take to pick a tool for a project, or a tool to learn in general? Should you learn the one that is the most popular? That has the most jobs available in it? That fits what job you want? That is tailored to a specific project's specs?
 
