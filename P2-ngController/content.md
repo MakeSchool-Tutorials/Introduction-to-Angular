@@ -3,11 +3,23 @@ title: "Adding Controllers with ngController"
 slug: adding-controllers-with-ngcontroller
 ---
 
-# Adding Controllers with ngController
+<hr><br>
+## Learning Objectives
+  * Create an `app.js` file
+  * How to Debug Angular
+  * Add a Controller
+
+<hr>
+
+### Chapter Summary
+
+Currently our app is pretty basic. Just one `index.html` file. Let's use that `app.js` file and add a controller.
+
+# Adding AngularJS Controllers
 
 > **Quick Note** - directives are written two ways: `ng-route`, `ng-show`, `ng-controller` and `ngRoute`, `ngShow`, `ngController`. They are referring to the same directive. In code it is always hyphenated, but written out it is often camel case.
 
-Currently our app is pretty basic. Just one `index.html` file. Let's use that `app.js` file. Take your current `index.html` and update it to this:
+Take your current `index.html` and update it to this:
 
 ```html
 <!doctype html>
@@ -31,7 +43,7 @@ Run this in the browser and what do you get. In this case you get this ugly erro
 Uncaught Error: [$injector:modulerr] http://errors.angularjs.org/1.4.4/$injector/modulerr?p0=redditApp&p1=Error%…ogleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.4%2Fangular.min.js%3A19%3A381)
 ```
 
-## Debugging AngularJS
+# Debugging AngularJS
 
 AngularJS has a rather strange way to debug. It actually sends your errors to an Angular documention website. So when you get an error, follow the links until you get to the actual error message. Here is a video illustrating how to debug angular:
 
@@ -73,7 +85,7 @@ angular.module('redditApp', [])
 
 Ok all working now.
 
-## Looping with ngRepeat
+# Looping with ngRepeat
 
 And now we can add some data to scope and loop over it:
 
