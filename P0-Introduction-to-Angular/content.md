@@ -3,8 +3,17 @@ title: "Introduction to Angular"
 slug: introduction-to-angular
 ---
 
-"AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write."
-> References: [Angular Docs](https://docs.angularjs.org/guide/introduction)
+<hr><br>
+## Learning Objectives
+  * Strategize on Comparing Languages and Frameworks
+  * Compare and Contrast Front End Frameworks
+  * Understand $scope and module injection
+
+<hr>
+
+### Chapter Summary
+
+Let's get jump into AngularJS, the leading front-end javascript framework. But first, let's talk a bit more about how to discuss and pick the tools we use.
 
 # How to Pick Which Tool to Learn? - 20min
 
@@ -24,6 +33,11 @@ Slack Braus the answer you come up in 3-5 sentences.
 ``` -->
 
 # Learn about Front End Frameworks - 2hrs
+
+## What is AngularJS?
+
+"AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write."
+> References: [Angular Docs](https://docs.angularjs.org/guide/introduction)
 
 ## Front End Frameworks or "Client-Side Architecture"
 
