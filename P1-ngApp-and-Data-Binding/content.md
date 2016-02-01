@@ -8,8 +8,9 @@ slug: ngapp-and-data-binding
   * Become a 100x Engineer
   * Project Planning Strategies
   * Bootstrapping an Angular App
+<hr>
 
-### Summary
+### Chapter Summary
 
 Remember that one of the benefits of front end frameworks is the strict separation of concerns between front end and back end. We're going to leverage this benefit to build a *decoupled* AngularJS prototype app with mocked data, sometimes called *vaporware*. Once we have a prototype working well, we can attach it to our rails API.
 
