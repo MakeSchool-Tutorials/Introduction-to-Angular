@@ -73,7 +73,7 @@ Form into groups of at least 3 participants. Each person pick one of the leading
 4. How does Angular make it easier to make full featured Single Page Applications?
 5. What is "dependency injection" in Angular?
 
-# $scope
+# $scope & Module Injection
 
 Read the [Introduction to $scope](https://docs.angularjs.org/guide/scope) docs.
 
@@ -129,4 +129,4 @@ app.controller("GuitarDetailsController", ['$scope','$http','$routeParams',
 );
 ```
 
-## Nice Work! On to the Next Article.
+# Nice Work! On to the Next Article.
