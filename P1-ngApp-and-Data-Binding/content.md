@@ -4,6 +4,7 @@ slug: ngapp-and-data-binding
 ---
 
 <hr>
+
 ## Learning Objectives
   * Become a 100x Engineer
   * Project Planning Strategies
