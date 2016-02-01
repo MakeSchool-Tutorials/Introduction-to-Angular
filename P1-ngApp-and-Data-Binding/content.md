@@ -3,8 +3,7 @@ title: "ngApp and Data Binding"
 slug: ngapp-and-data-binding
 ---
 
-<hr>
-
+<hr><br>
 ## Learning Objectives
   * Become a 100x Engineer
   * Project Planning Strategies
