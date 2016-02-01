@@ -7,6 +7,12 @@
 
 h1 gets a checkbox at the end of the section "#"
 
+Advanced topics
+- gulp
+- Angular2
+
+
+
 1. intro.md
 2. ng-app-and-data-binding.md
 3. ng-controller.md

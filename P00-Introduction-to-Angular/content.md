@@ -59,7 +59,9 @@ Probably the most famous and widely used Isomorphic framework is Meteor. Airbnb 
 
 Form into groups of at least 3 participants. Each person pick one of the leading [front end frameworks](https://github.com/showcases/front-end-javascript-frameworks). Don't forget [Angular2](http://angular.io/).
 
-# Read [Introductory docs for Angular]( https://docs.angularjs.org/guide/introduction) and Answer these Questions:
+# Read Introductory docs for Angular and Answer these Questions:
+
+[Introductory docs for Angular]( https://docs.angularjs.org/guide/introduction)
 
 1. How does Angular differ from jQuery in how it keeps track of state and manipulates the DOM?
 2. What is a two way data binding exactly and how would you use it?
