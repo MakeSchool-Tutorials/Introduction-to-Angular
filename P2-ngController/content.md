@@ -8,7 +8,7 @@ slug: adding-controllers-with-ngcontroller
   * Create an `app.js` file
   * How to Debug Angular
   * Add a Controller
-
+  
 <hr>
 
 ### Chapter Summary

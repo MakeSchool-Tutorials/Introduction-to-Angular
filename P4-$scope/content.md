@@ -3,17 +3,19 @@ title: "$scope"
 slug: scope
 ---
 
-# ngClick and ngSubmit
+<hr><br>
+## Learning Objectives
+  * Detect click and submit events with ngClick and ngSubmit
+  * Implement Angular's Native Form Validation
+<hr>
+
+### Chapter Summary
 
 Besides keeping variables in `$scope` we can also expose functions to the template through `$scope`. We can then use native angular directives to have these functions run dynamically on clicks and form submits with `ng-click` and `ng-submit`.
 
-## Adding a Form
+# ngSubmit
 
-```html
-
-```
-
-## $scope.createPost
+## $scope.createPost()
 
 For your Reddit app, you'll need to create posts. For now, posts will just have two attributes called `title` and `voteCount` they will be added from the top of your app. We can always move this into a `post-new.html` template later once we know how to do routing.
 
@@ -39,7 +41,7 @@ Add the `createPost()` function to `$scope` in the `MainCtl` controller.
 
 What is going on here? What is happening line by line? Write pseudocode comments line by line explaining what each line does.
 
-## Native Angular Validations
+# Native Angular Validations
 
 Angular gives you native validators. Let's use angular form validators and `ng-disabled` to disable the save button unless our form is valid.
 
@@ -75,6 +77,8 @@ Here's an example for a `userForm`. Using this example as a model, add angular f
 
 By layering on a few conditional css classes and an alert using [ng-if](https://docs.angularjs.org/api/ng/directive/ngIf) and  [ng-class](https://docs.angularjs.org/api/ng/directive/ngClass) you can implement a very delightful, powerful, and flexible form validation. More on these native directives to come.
 
+# ngClick
+
 ## $scope.voteUp
 
 Using the logic from the `createPost()` section, try to make a `voteUp()` function.
@@ -102,3 +106,8 @@ $scope.voteUp = function(post) {
   ++post.voteCount
 }
 ```
+
+# Challenges
+
+1. Add a form to your prototype and use `ng-submit` to have the form update `$scope`.
+1. Use `ng-click` to change something in `$scope`.
