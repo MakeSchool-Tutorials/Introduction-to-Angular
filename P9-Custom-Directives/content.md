@@ -1,3 +1,8 @@
+---
+title: "Custom Directories"
+slug: custom-directories
+---
+
 # Custom & External Angular Directives
 
 So we've used and covered `.config()`, `.controller()`, and `factory()`, now we will look at `.directive()`.

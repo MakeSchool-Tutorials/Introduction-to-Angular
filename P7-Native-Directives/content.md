@@ -1,3 +1,8 @@
+---
+title: "Native Directives"
+slug: native-directives
+---
+
 # Angular's Native Directives
 
 Angular is made up of directives that supercharge your html. Some of them you already know like `ng-app`, `ng-click`, `ng-controller`, `ng-repeat`, and `ng-model`. You can also make your own custom directives and we'll learn how to do that in a future article, but Angular ships with a slew of very useful directives. To understand Angular directives better, lets look at some of the basic "native" Angular directives.

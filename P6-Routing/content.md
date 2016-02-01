@@ -1,3 +1,8 @@
+---
+title: "Routing in Angular"
+slug: routing-in-angular
+---
+
 # Routing in Angular
 
 In a client-side framework like AngularJS routing is managed not by the server, but by the front end itself. Angular detects the path of your URL and conventionally maps that URL to a controller and template.
