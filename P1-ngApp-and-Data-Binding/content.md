@@ -8,6 +8,7 @@ slug: ngapp-and-data-binding
   * Become a 100x Engineer
   * Project Planning Strategies
   * Bootstrapping an Angular App
+
 <hr>
 
 ### Chapter Summary
