@@ -45,19 +45,6 @@ Now add a little jQuery, now the client can do some things independently but it 
 
 What if you could put the client in the driver's seat and make it state-aware? Then when you updated state, the view would reflect the change without any extra effort. This is largely the goal of front end frameworks and AngularJS in specific.
 
-## What is Next? Isomorphic Javascript?
-
-There are two major complaints about SPAs:
-
-1. They are not friendly to Search Engine Optimization (SEO) since the robots who crawl the internet don't run the JavaScript to get the actual content from the server.
-2. That the initial load of SPA apps is slow.
-
-This has lead to a new paradigm for the web called *Isomorphic Javascript*. In this paradigm developers write packages that run on the server and the client and therefore do both server and client-side templating. This speeds up the initial load and appeases the SEO robot overlords.
-
-Probably the most famous and widely used Isomorphic framework is Meteor. Airbnb made a framework based on Backbone.js called Rendr. ReactJS is a growing templating module that can be extended with Browserify and Webpack to be isomorphic.
-
-# Read [Airbnb's Article on Isomorphic Javascript](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/) - 20min
-
 # Front End Framework Battle Royal - 45min
 
 Form into groups of at least 3 participants. Each person pick one of the leading [front end frameworks](https://github.com/showcases/front-end-javascript-frameworks). Don't forget [Angular2](http://angular.io/).
@@ -72,7 +59,9 @@ Form into groups of at least 3 participants. Each person pick one of the leading
 4. How does Angular make it easier to make full featured Single Page Applications?
 5. What is "dependency injection" in Angular?
 
-# Read this [Introduction to $scope](https://docs.angularjs.org/guide/scope)
+# $scope
+
+Read the [Introduction to $scope](https://docs.angularjs.org/guide/scope) docs.
 
 From the top through the **Scope Life Cycle** section and answer these questions:
 

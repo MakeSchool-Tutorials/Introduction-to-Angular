@@ -10,6 +10,25 @@ h1 gets a checkbox at the end of the section "#"
 Advanced topics
 - gulp
 - Angular2
+- isomorphic js
+
+## What is Next? Isomorphic Javascript?
+
+There are two major complaints about SPAs:
+
+1. They are not friendly to Search Engine Optimization (SEO) since the robots who crawl the internet don't run the JavaScript to get the actual content from the server.
+2. That the initial load of SPA apps is slow.
+
+This has lead to a new paradigm for the web called *Isomorphic Javascript*. In this paradigm developers write packages that run on the server and the client and therefore do both server and client-side templating. This speeds up the initial load and appeases the SEO robot overlords.
+
+Probably the most famous and widely used Isomorphic framework is Meteor. Airbnb made a framework based on Backbone.js called Rendr. ReactJS is a growing templating module that can be extended with Browserify and Webpack to be isomorphic.
+
+# Airbnb on Isomorphic Javascript - 20min
+
+Read [Airbnb's Article on Isomorphic Javascript](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/) and answer these questions:
+
+1. What problems are Isometric Javascript web architectures trying to solve?
+1. How does Browserify and Webpack work together to run code on the server and the client?
 
 
 
