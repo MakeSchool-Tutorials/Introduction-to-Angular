@@ -7,6 +7,7 @@ slug: scope
 ## Learning Objectives
   * Detect click and submit events with ngClick and ngSubmit
   * Implement Angular's Native Form Validation
+
 <hr>
 
 ### Chapter Summary

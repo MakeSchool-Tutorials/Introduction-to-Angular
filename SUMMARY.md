@@ -1,3 +1,5 @@
+P5-P11 add learning objectives and chapters summary, break up steps into challenges
+
 > [info]
 > Blah
 

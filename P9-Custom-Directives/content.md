@@ -3,7 +3,14 @@ title: "Custom Directories"
 slug: custom-directories
 ---
 
-# Custom & External Angular Directives
+<hr><br>
+## Learning Objectives
+  * Familiarize Yourself with Angular's Custom Directives
+  * Build a Custom Weather Directive
+
+<hr>
+
+### Chapter Summary
 
 So we've used and covered `.config()`, `.controller()`, and `factory()`, now we will look at `.directive()`.
 
@@ -15,7 +22,7 @@ An analogy for directives is if you think of the views of your app like a butter
 
 Checkout [angular-ui](https://angular-ui.github.io/) and [ng-modules](http://ngmodules.org/) to find popular Angular Directives and add them to your projects.
 
-## Adding an External Directive
+# Adding an External Directive
 
 Sometimes when you are looking to solve a problem you find a solution has already been made in the form of a directive. Now the challenge is how to include that directive in your project.
 
@@ -29,9 +36,9 @@ Sometimes when you are looking to solve a problem you find a solution has alread
 
 Simple as that!
 
-## Making Your Own Directive
+# Making Your Own Directive
 
-### A Current Weather Example
+## A Current Weather Example
 
 **Follow Along** by putting these samples into an Angular project.
 
@@ -72,7 +79,7 @@ app.directive('currentWeather', function() {
 });
 ```
 
-## Angular Directive Options
+# Angular Directive Options
 
 #### Restrict
 
@@ -171,7 +178,7 @@ The `{{text}}` inside the `<pane></pane>` directive parent html element will be 
 
 5. Add the [ngMap](https://github.com/allenhwkim/angularjs-google-maps) directive to display a map in your app centered on SF. **Hint:** [This blog post](http://allenhwkim.tumblr.com/post/70986888283/google-map-as-the-simplest-way) has some very helpful examples.
 
-## Evening Challenges
+# More Challenges
 
 1. Create a directive called `five-day-forecast` that fetches and displays the five day forecast from the [openweathermap api](http://openweathermap.org/forecast5).
 2. Add the [angular-moment](https://github.com/urish/angular-moment) directive to show a date and time in your app that ticks down by the second.

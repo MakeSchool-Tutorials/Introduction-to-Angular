@@ -3,11 +3,17 @@ title: "Native Directives"
 slug: native-directives
 ---
 
-# Angular's Native Directives
+<hr><br>
+## Learning Objectives
+  * Implement some of Angular's Native Directives
+
+<hr>
+
+### Chapter Summary
 
 Angular is made up of directives that supercharge your html. Some of them you already know like `ng-app`, `ng-click`, `ng-controller`, `ng-repeat`, and `ng-model`. You can also make your own custom directives and we'll learn how to do that in a future article, but Angular ships with a slew of very useful directives. To understand Angular directives better, lets look at some of the basic "native" Angular directives.
 
-## Hiding and Showing
+# Hiding and Showing
 
 #### `ng-show`
 (Hint: use `ng-init` to set a variable upon initialization)
@@ -27,7 +33,7 @@ Angular is made up of directives that supercharge your html. Some of them you al
 </div>
 ```
 
-## ng-pluralize
+# ng-pluralize
 
 This directive lets you pluralize nouns based on a dynamic `count` variable or expression.
 
@@ -47,7 +53,7 @@ Nobody is viewing
 4 people are viewing
 ```
 
-## ng-class
+# ng-class
 
 "The ngClass directive allows you to dynamically set CSS classes on an HTML element by databinding an expression that represents all classes to be added." - [AngularJS Docs](https://docs.angularjs.org/api/ng/directive/ngClass)
 
@@ -70,7 +76,7 @@ The `ng-class` directive works a few ways. It can simply take a string, or it ca
 
 Try adding the above code sample to any template and play with it. Can you add other buttons or input fields or radio buttons to manipulate the classes?
 
-## ng-include
+# ng-include
 
 With the `ng-include` directive Angular allows you to use partial templates like we've see with underscore, handlebars, and rails. Try out this example. Careful to remember to include the single quotes inside the double quotes.
 
@@ -85,7 +91,7 @@ You can also use `ng-repeat` and `ng-include` together.
   <ng-include src="'article.html'" ng-repeat="article in articles"></ng-include>
 ```
 
-## Filters
+# Filters
 
 Angular gives you a handful of standard [filters](https://docs.angularjs.org/api/ng/filter).
 

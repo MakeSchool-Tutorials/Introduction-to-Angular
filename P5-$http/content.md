@@ -3,7 +3,14 @@ title: "$http"
 slug: http
 ---
 
-# $http
+<hr><br>
+## Learning Objectives
+  * Introduction to Native Services
+  * Contact the Giphy API with `$http`
+
+<hr>
+
+### Chapter Summary
 
 AngularJS has a number of **Native Services** that are just like the services we were making, but they are shipped with Angular. You can tell a native service because it is prefixed by a `$`. Native services are services so they are singletons that group functions related to a particular action or activity. `$scope` itself is a native Angular service that groups together all the functions and variables exposed in the template. `$rootScope` the parent of all nested scopes is also a native service.
 
@@ -16,7 +23,8 @@ The `$http` service (as you might suspect) manages functions making HTTP request
 
 Surprise surprise! Its the HTTP action verbs. Let's use `$http` native service to make queries to the giphy API.
 
-## Giphy API
+
+# Giphy API
 
 Let's try to display a random gif on our template. We can put logic in the `MainCtrl` for now.
 

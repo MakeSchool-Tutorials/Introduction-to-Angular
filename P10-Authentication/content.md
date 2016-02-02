@@ -3,27 +3,26 @@ title: "Authenication"
 slug: authentication
 ---
 
-# Authentication with JWT (JSON Web Tokens)
+<hr><br>
+## Learning Objectives
+  * Compare and contrast a cookie-session and webtoken authentication
+  * Using [Satellizer](https://github.com/sahat/satellizer) to deploy JWT in AngularJS
 
-| Objectives |
-| :--- |
-| Compare and contrast a cookie-session and webtoken authentication |
-| Using [Satellizer](https://github.com/sahat/satellizer) to deploy JWT in AngularJS |
+<hr>
 
-## Background
+### Chapter Summary
 
 With Ruby we learned the Cookie-Session method of authentication; however, there is a better way to do communicate authentication with **Single Page Applications** and a **Service-Based Architecture**. We're going to use an encrypted chunk of JSON called a **JSON Web Token** or JWT (pronounced ''*jot*'') to communicate authentication between client and server.
 
 ![cookie-token-auth](cookie-token-auth.png)
 > Reference [auth0.com](https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
 
-## More Reading:
+# Authentication with JWT (JSON Web Tokens) Readings
 
 1. Read this excellent article by Max at Ionic about [AngularJS Authentication](http://blog.ionic.io/angularjs-authentication/)
 1. Read this [comparison of cookie/session auth and token auth](https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
 
-
-## Why Use JWT?
+# Why Use JWT?
 
 Aren't you tired of worrying about keeping track of all these things?
 
@@ -39,7 +38,7 @@ Also these benefits:
 1. Storage - you don't have to store the session
 1. Testing - you don't have to make logging in a special case in your tests, just send the token.
 
-## JWT FTW
+# JWT FTW
 
 A JWT is pretty easy to identify. It is three strings separated by .
 
@@ -95,7 +94,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzY290Y2guaW8iLCJleHAiOjEzMDA4MTk
 - [scotch.io tutorial](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)
 - [JWT Express Node Mongoose](http://blog.matoski.com/articles/jwt-express-node-mongoose/)
 
-## Angular Interceptors
+# Angular Interceptors
 
 An Angular interceptors allow you to "intercept" http requests and responses and change them. We use an interceptor to attach the JWT to every outgoing http request, and handle what to do with 401 (Unauthorized) statuses in any http response.
 
@@ -125,7 +124,7 @@ app.config(function ($httpProvider) {
 });
 ```
 
-## JWT Flow
+# JWT Flow
 > Reference: [blog.matoski.com](http://blog.matoski.com/articles/jwt-express-node-mongoose/)
 
 **Login**
@@ -191,6 +190,6 @@ app.config(function ($httpProvider) {
   * auth_controller.rb
   * models/token.rb
 
-## Stretch Challenges
+# Stretch Challenges
 
 1. Add Facebook authentication with Satellizer.

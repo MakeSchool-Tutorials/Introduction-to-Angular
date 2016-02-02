@@ -3,11 +3,18 @@ title: "Routing in Angular"
 slug: routing-in-angular
 ---
 
-# Routing in Angular
+<hr><br>
+## Learning Objectives
+  * Familiarize yourself with the background in Angular routing
+  * Contact the Giphy API with `$http`
+
+<hr>
+
+### Chapter Summary
 
 In a client-side framework like AngularJS routing is managed not by the server, but by the front end itself. Angular detects the path of your URL and conventionally maps that URL to a controller and template.
 
-## Background
+# Background
 
 Angular first shipped with a simple routing module that let you connect one URL with one controller and one template. Very quickly developers in the Angular community wanted to go beyond this simple coupling and leverage Angular's ability to nest controllers, views, and scopes together to make more complex and modular front-end applications. The Angular community decided to extract the standard angular routing module into its own separate module called `ngRoute`. This commenced a virtual food fight for who could build the best routing module for Angular. The unproclaimed winner was a module called `ui-router` which is part of a larger library called  [Angular-UI](https://angular-ui.github.io/) that provides a whole family of useful external Angular services and directives.
 
@@ -19,6 +26,8 @@ For the purposes of learning Angular, we will be using the standard `ngRoute` ro
 The core difference between `ng-route` and `ui-router` is that `ng-route` is based on URL and `ui-router` is based on the `state` of an application and treats the URL as merely an attribute of a state.
 
 We'll be using `ui-router` because it can do everything `ng-route` can do, but `ng-route` can't do everything `ui-router` does. It is also good to note that advance usage of `ui-router` allows for easily nesting routes and templates.
+
+# ngRoute vs ui-router
 
 ## Vanilla ng-route
 
@@ -64,7 +73,7 @@ $urlRouterProvider.otherwise('/');
 
 > **Notice** that there is always an `otherwise()` function to define a fallback route/state if the requested URL does not match any defined route/state.
 
-## Add `ui-router` to a Project
+# Add `ui-router` to a Project
 
 1. Include `angular-route.js` in your index.html file after `angular.js`
   ```html
@@ -76,7 +85,7 @@ $urlRouterProvider.otherwise('/');
   ```
 1. Now we're ready to set up our states!
 
-## Setting up our Templates
+# Setting up our Templates
 
 We're going to turn our `index.html` into a **Layout Template**. Like in Rails, this template will be the common template for all the views in our application. Other **Partial Templates** are then included into this layout template depending on the current state.
 
@@ -90,7 +99,7 @@ We're going to turn our `index.html` into a **Layout Template**. Like in Rails, 
   </body>
   ```
 
-## Configure our States
+# Configure our States
 
 1. All states are defined in the `app.js` file. Other code we will eventually move into other files.
 1. Using the `.config()` method, we request the `$routeProvider` to be injected into our config function and use the `$routeProvider.when()` method to define our routes. Open up your `app.js` file. We're going to dot-chain our route information off our app. Put this code at the top of the file right below where you define the app.
@@ -119,7 +128,7 @@ We're going to turn our `index.html` into a **Layout Template**. Like in Rails, 
   - One state that resolves to `/` and serves up your posts controller and the post index template.
   - A second state that resolves to `/post/:postId`, and serves your post controller and the post show template.
 
-## Accessing `:postId` in URL Params
+# Accessing `:postId` in URL Params
 
 Using `ui-router` we will want to access URL parameters in a controller, like when you want to use an `:postId` to GET a single post. We'll inject `$stateParams` into our controller to access the url parameters.
 
@@ -139,7 +148,7 @@ Using `ui-router` we will want to access URL parameters in a controller, like wh
 }]);
 ```
 
-## Setting up Controllers 
+# Setting up Controllers
 
 1. Create a new file in your top level called `controllers.js`.
 1. Add the file to your `<head>` tag: `<script src="controllers.js"></script>`
@@ -172,4 +181,4 @@ Using `ui-router` we will want to access URL parameters in a controller, like wh
     $location.path('/');
   ```
 
-## CONGRATS! You have Implemented Client Side Routing with AngularJS!
+# CONGRATS! You have Implemented Client Side Routing with AngularJS!
