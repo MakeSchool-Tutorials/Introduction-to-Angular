@@ -23,8 +23,6 @@ Pair up with a buddy and discuss the strategies you could take to pick a tool fo
 
 How could you go about answering these questions about a specific framework or language?
 
-Slack Braus the answer you come up in 3-5 sentences.
-
 <!-- ```[solution]
   * [Compare their Github Stats](https://infogr.am/githuborg-8375525)
   * [Compare their Module Count](http://www.modulecounts.com/)
@@ -39,7 +37,7 @@ Slack Braus the answer you come up in 3-5 sentences.
 "AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write."
 > References: [Angular Docs](https://docs.angularjs.org/guide/introduction)
 
-## Front End Frameworks or "Client-Side Architecture"
+## Front End Frameworks or Client-Side Architecture
 
 Javascript front end frameworks emerged after JavaScript and browsers became fast enough to manage full featured clients and after the mobile revolution exposed the benefits of having a strong client and a service-oriented architecture. Front end frameworks are like building a website like an Android or iOS mobile app, except instead of downloading the client from an app store, the client is sent to the browser upon the first HTTP request.
 

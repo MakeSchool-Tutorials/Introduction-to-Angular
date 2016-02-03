@@ -7,7 +7,7 @@ slug: ngapp-and-data-binding
 ## Learning Objectives
   * Become a 100x Engineer
   * Project Planning Strategies
-  * Bootstrapping an Angular App
+  * Bootstrapping an Angular App with Bower
 
 <hr>
 
@@ -84,7 +84,7 @@ Through data binding, Angular binds variables in `$scope` to the DOM and makes t
 
 Please follow along and make the most basic angular app you can:
 
-1. Create a folder called `reddit-angular`. In the two root make two files: `index.html` and `app.js`.
+1. Create a folder for your prototype. In the two root make two files: `index.html` and `app.js`.
 2. For now, ignore `app.js`. In `index.html` add the below code.
 2. In your terminal begin a simple http server. (You can use one you are familiar with or use this command `sudo npm install http-server -g` and call `http-server`). Now open `http://localhost:8080` in your browser.
 3. Type in the input. What do you see?
@@ -113,7 +113,7 @@ Please follow along and make the most basic angular app you can:
 
 This is what is called **two way data binding**. As you type, you update `$scope` Angular's data model. Every time the model is updated, Angular updates the views to match the new state of the model. This is called Angular's **Digest Loop**.
 
-![digestcycle](/../images/digest.png)
+![digestcycle](../images/digest.png)
 
 In jQuery this would be like having a `change()` listener on every single element and a function that updates the DOM correspondingly. Like this but for every element on the page:
 
@@ -122,5 +122,36 @@ In jQuery this would be like having a `change()` listener on every single elemen
     $('#term').text($(this).val());
   });
 ```
+
+# Bower
+
+We could just use that Content Delivery Network (CDN) link going forward, but in production you'll want to use a frontend package manager like [Bower](http://bower.io/). Bower is a tool twitter made to make it as easy to manage front end packages as Bundler and npm make it to manage back end packages.
+
+1. Install bower globally on your machine and initialize bower (just hit enter for the default options).
+  ```
+  $ npm install bower -g
+  $ bower init
+  ```
+1. Let's add a hidden [bower configuration](http://bower.io/docs/config/) file so we can change the directory where our bower packages save:
+  ```
+  $ touch .bowerrc
+  ```
+
+  `.bowerrc`
+  ```
+  { "directory" : "/vendor" }
+  ```
+1. Now let's install our first package: Angular
+  ```
+  $ bower install angular -save
+  ```
+1. You should see a `vendor` folder with the angular assets inside. Whoohoo! Next change the CDN link to hit the angular.min.js file in your `vendor` folder.
+
+  ```html
+  <head>
+    <title>My Angular App</title>
+    <script src="vendor/angular/angular.min.js"></script>
+  </head>
+  ```
 
 ## Nice Work! On to The Next Article
