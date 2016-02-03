@@ -75,9 +75,14 @@ $urlRouterProvider.otherwise('/');
 
 # Add `ui-router` to a Project
 
-1. Include `angular-route.js` in your index.html file after `angular.js`
+1. Use bower to install `ui-router` and include it in your index.html file after `angular.js`.
+  ```
+  $ bower install angular-ui-router
+  ```
+
+  `index.html`
   ```html
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.min.js"></script>
+    <script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
   ```
 1. Now you need to inject the `ui.router` module into your application.
   ```js
@@ -180,5 +185,9 @@ Using `ui-router` we will want to access URL parameters in a controller, like wh
   ```js
     $location.path('/');
   ```
+
+# Your app
+
+Before moving on, make sure to build out the main states for your app and populate them with data with services.
 
 # CONGRATS! You have Implemented Client Side Routing with AngularJS!

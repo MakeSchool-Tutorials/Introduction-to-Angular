@@ -7,7 +7,8 @@ slug: ngapp-and-data-binding
 ## Learning Objectives
   * Become a 100x Engineer
   * Project Planning Strategies
-  * Bootstrapping an Angular App with Bower
+  * Bootstrapping an Angular App with CDN
+  * Adding Bower
 
 <hr>
 
