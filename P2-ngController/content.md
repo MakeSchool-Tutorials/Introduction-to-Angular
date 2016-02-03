@@ -8,7 +8,7 @@ slug: adding-controllers-with-ngcontroller
   * Create an `app.js` file
   * How to Debug Angular
   * Add a Controller
-  
+
 <hr>
 
 ### Chapter Summary
@@ -135,6 +135,5 @@ We could `console.log()` the `pokemon` variable in `$scope` or we could put a `d
 # Challenges
 
 1. Now let's use `ng-repeat` to loop over the `pokemon`. Look up the `ng-repeat` docs to implement this.
-1. Instead of pokemon, let's put mock post data for our Reddit.
-1. Add bootstrap to your project. Style your posts data and template to look nice.
-1. Add a navbar.
+1. Instead of pokemon, let's put mock post data for our prototype's resources.
+1. Add bootstrap to your project. Include a navbar component and use the bootstrap grid system. Style your posts data and template to look like your wireframes. As in music, so in web development: no accordions... ever...

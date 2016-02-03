@@ -57,9 +57,15 @@ Notice that the `$window.location.origin` will detect development and production
 ## Installation
 
 1. The `$resource` service doesn’t come bundled with the main Angular script. For now add it to your `index.html` file with the CDN. In a production app you'll likely want to use Bower for this.
-  ```html
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-resource.min.js"></script>
+
+  ```bash
+  $ bower install angular-resource
   ```
+
+  ```html
+  <script src="vendor/angular-resource/angular-resource.min.js"></script>
+  ```
+  
 1. Now you need to load the `$resource` module into your application.
   ```js
   angular.module('app', ['ngResource']);

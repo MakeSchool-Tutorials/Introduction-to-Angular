@@ -164,16 +164,7 @@ app.config(function ($httpProvider) {
 
 **Add Satellizer**
 
-1. Use the CDN or Bower
-
-  ```html
-  <script src="//cdn.jsdelivr.net/satellizer/0.13.4/satellizer.min.js"></script>
-  ```
-
-  ```bash
-  $ bower install satellizer
-  ```
-
+1. Use Bower to install Satellizer
 1. Add the module to your app.
 
   ```js
