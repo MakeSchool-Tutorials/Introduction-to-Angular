@@ -51,17 +51,17 @@ User narratives are stories where you **get inside the heads of your users**. Th
 
 Here's an example for a user narrative for a "Yelp for Landlords"
 
-```
-Hi, I'm Randy the Renter and I'm looking for housing in San Francisco. I found 5 or 6 places on craiglist to live, but I want to see if the landlord is good because I've had trouble in the past with bad landlords. I go to "yelpforlandlords.com" and search by the address of the unit. The landlord comes up. It looks like they are a good landlord, 5 stars and based on the underlying property value, she doesn't gauge the renters. Awesome!
-```
+
+>Hi, I'm Randy the Renter and I'm looking for housing in San Francisco. I found 5 or 6 places on craiglist to live, but I want to see if the landlord is good because I've had trouble in the past with bad landlords. I go to "yelpforlandlords.com" and search by the address of the unit. The landlord comes up. It looks like they are a good landlord, 5 stars and based on the underlying property value, she doesn't gauge the renters. Awesome!
+
 
 By fully **getting inside the head of a user** you can build an app that people actually want to use. This techinque can be used for hardware, software, even when you are building esoteric software development libraries, you always have a user that you want to make happy.
 
 Another example:
 
-```
-Hi, I'm Larry the Landlord and I'm a great landlord and want to read my reviews on yelpforlandlords.com. I visit the page and I look up my name. I find that I have many good reviews and I leave responses like "Thanks! You were a great tenant". On one negative review I try to give context to the problem they had.
-```
+
+>Hi, I'm Larry the Landlord and I'm a great landlord and want to read my reviews on yelpforlandlords.com. I visit the page and I look up my name. I find that I have many good reviews and I leave responses like "Thanks! You were a great tenant". On one negative review I try to give context to the problem they had.
+
 
 Write your user narratives for your prototype.
 
