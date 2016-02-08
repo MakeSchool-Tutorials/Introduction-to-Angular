@@ -29,9 +29,11 @@ Sometimes when you are looking to solve a problem you find a solution has alread
 1. First, add the files to your project
 2. Include them in `index.html`
 3. Inject the directive into your app.
+
   ```js
     angular.module('yourApp', ['ngMap', 'pickadate', 'ui.bootstrap'])
   ```
+
 4. Now they will be ready to use in your templates.
 
 Simple as that!
@@ -53,6 +55,7 @@ Place this HTML anywhere in your templates:
 ```
 
 Add this directive to your app:
+
 ```js
 app.directive('currentWeather', function() {
   return {
@@ -118,6 +121,7 @@ Here is an example
 ```
 
 In the directive you would access the values of these three attributes like this:
+
 ```js
 scope: {
   ngModel: '=',     // Bind the ngModel to the object given
