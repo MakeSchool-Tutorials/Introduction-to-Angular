@@ -67,6 +67,7 @@ Notice that the `$window.location.origin` will detect development and production
   ```
   
 1. Now you need to load the `$resource` module into your application.
+
   ```js
   angular.module('app', ['ngResource']);
   ```
@@ -84,6 +85,7 @@ Notice that the `$window.location.origin` will detect development and production
 1. The result of the function call is a resource class object which has the following five methods by default: `get()`, `query()`, `save()`, `remove()`, `delete()` (delete is an alias for remove)
 
 1. Let’s see how we can use the `get()`, `query()`, `save()`, and `delete()` methods in a controller using a sample `Book` service:
+
   ```js
   angular.module('myApp').controller('BooksCtrl', ['$scope', 'Book', function($scope, Book) {
       $scope.book = Book.get({ id: 200 }, function(data) {
@@ -119,6 +121,7 @@ Notice that the `$window.location.origin` will detect development and production
 1. Use the `Post.delete()` and `Post.get()` to refactor your delete and show pages.
 
 1. We have explored the create, read and delete parts of CRUD. The only thing left is update. To support an update operation we need to modify our custom service `Book` as shown below.
+
   ```js
   angular.module('myApp').service('Book', function($resource) {
     return $resource('http://daretodiscover.herokuapp.com/books/:id', { id: '@_id' }, {
@@ -130,6 +133,7 @@ Notice that the `$window.location.origin` will detect development and production
   ```
 
 1. Now we can use the `update` function like this:
+
   ```js
   var book = Book.get({ id: 200 }, function() {
       book.title = "Updated Title";
