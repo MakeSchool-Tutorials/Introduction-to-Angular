@@ -109,8 +109,8 @@ angular.module('myApp', ['myApp.services'])
 ```
 
 # Challenge
-1. In your reddit-angular app move your `posts` data into a `Posts` service.
-2. Inject your `Posts` service into your controller and call `Posts.all()` to get all the posts.
+1. In your app move your main resource (e.g. `posts`) data into a service by the same name (capitalized!).
+2. Inject your service into your controller and call `<<ServiceName>>.all()` to get all the data.
 
 > If you are prototyping another app, create a service for your core resource or resources and inject them into your controller.
 

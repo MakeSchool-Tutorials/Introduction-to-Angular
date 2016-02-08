@@ -52,7 +52,7 @@ Notice here that `$http` returns a promise that is resolved with a `then()` func
 
 1. Use the code above to query a random giphy gif and put its url into `$scope.gif`. (Hint - the Giphy API response is kinda gnarly so use `debugger` or a JSON inspector plugin in your browser to navigate the response to get the gif url you want.)
 1. Display the gif on your template using the `ng-src` directive inside an `<img>` tag. Remember to use bootstrap's responsive image class.
-1. In your angular-reddit project, use `$http` in to get your posts from you rails app and load them on the page. (Hint - you will need to be running `rails s`!)
+1. In your prototype project, use `$http` in to get your posts from you rails app and load them on the page. (Hint - you will need to be running `rails s`!)
 
 ## Decoupled AngularJS App
 
