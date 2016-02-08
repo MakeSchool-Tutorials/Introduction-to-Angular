@@ -33,6 +33,9 @@ We'll be using `ui-router` because it can do everything `ng-route` can do, but `
 
 > Reference: [ngRoute](https://docs.angularjs.org/api/ngRoute)
 
+
+> **Notice** that ngRoute tracks only URL and ui-router tracks state and url is just an attribute of state.
+
 ```js
 sampleApp.config(['$routeProvider',
   function($routeProvider) {
@@ -76,18 +79,23 @@ $urlRouterProvider.otherwise('/');
 # Add `ui-router` to a Project
 
 1. Use bower to install `ui-router` and include it in your index.html file after `angular.js`.
+  
   ```
   $ bower install angular-ui-router
   ```
 
   `index.html`
+
   ```html
     <script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
   ```
+
 1. Now you need to inject the `ui.router` module into your application.
+  
   ```js
     angular.module('myApp', ['ui.router'])
   ```
+  
 1. Now we're ready to set up our states!
 
 # Setting up our Templates

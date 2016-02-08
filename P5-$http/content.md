@@ -54,7 +54,7 @@ Notice here that `$http` returns a promise that is resolved with a `then()` func
 1. Display the gif on your template using the `ng-src` directive inside an `<img>` tag. Remember to use bootstrap's responsive image class.
 1. In your prototype project, use `$http` in to get your posts from you rails app and load them on the page. (Hint - you will need to be running `rails s`!)
 
-## Decoupled AngularJS App
+# Decoupled AngularJS App
 
 Currently your AngularJS project is **Decoupled** from your Rails app, meaning it is a completely separate project and is not served to the client through the rails asset pipeline. The two are connected just through queries your AngularJS project makes to exposed **API webhooks** or **API endpoints** in your Rails app.
 
