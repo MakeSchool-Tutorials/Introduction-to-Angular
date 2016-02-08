@@ -91,22 +91,21 @@ Using the logic from the `createPost()` section, try to make a `voteUp()` functi
 * Make sure `voteUp` is a function in `$scope`
 * What do you do with the `post` once someone votes up? Increment the `voteCount`
 
-Solution
-
-```html
-<div ng-repeat="post in posts" ng-click="voteUp(post)">
-  {{post.title}}
-  <div class='text-right text-muted'>
-    {{post.voteCount}} votes
-  </div>
-</div>
-```
-
-```js
-$scope.voteUp = function(post) {
-  ++post.voteCount
-}
-```
+> [solution]
+> ```html
+> <div ng-repeat="post in posts" ng-click="voteUp(post)">
+>   {{post.title}}
+>   <div class='text-right text-muted'>
+>     {{post.voteCount}} votes
+>   </div>
+> </div>
+> ```
+> 
+> ```js
+> $scope.voteUp = function(post) {
+>   ++post.voteCount
+> }
+> ```
 
 # Challenges
 
