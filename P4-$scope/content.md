@@ -92,6 +92,7 @@ Using the logic from the `createPost()` section, try to make a `voteUp()` functi
 * What do you do with the `post` once someone votes up? Increment the `voteCount`
 
 > [solution]
+>
 > ```html
 > <div ng-repeat="post in posts" ng-click="voteUp(post)">
 >   {{post.title}}
