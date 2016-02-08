@@ -95,7 +95,7 @@ $urlRouterProvider.otherwise('/');
   ```js
     angular.module('myApp', ['ui.router'])
   ```
-  
+
 1. Now we're ready to set up our states!
 
 # Setting up our Templates
@@ -139,7 +139,7 @@ We're going to turn our `index.html` into a **Layout Template**. Like in Rails, 
 
   **Remember** to keep the names of your templates and controllers **RESTful**.
 
-1. Using the above code as a model, add two states to your reddit app.
+1. Using the above code as a model, add two states to your prototype app.
   - One state that resolves to `/` and serves up your posts controller and the post index template.
   - A second state that resolves to `/post/:postId`, and serves your post controller and the post show template.
 

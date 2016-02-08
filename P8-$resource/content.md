@@ -11,7 +11,7 @@ slug: resource
 
 ### Chapter Summary
 
-Angular’s `$resource` is a native AngularJS service that lets you interact with RESTful backends easily. `$resource` makes your Angular services behave sort of like models in a traditional MVC pattern. In this tutorial, we're going to assume you have a RESTful API for your Reddit app and refactor our `$http` requests into services with `$resource`.
+Angular’s `$resource` is a native AngularJS service that lets you interact with RESTful backends easily. `$resource` makes your Angular services behave sort of like models in a traditional MVC pattern. In this tutorial, we're going to assume you have a RESTful API for your prototype app and refactor our `$http` requests into services with `$resource`.
 
 > **Reminder**: remember your APIs should be RESTful and respond with proper error messages so they can be consumed easily by modules like `$resource`.
 

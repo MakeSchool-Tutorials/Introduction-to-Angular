@@ -142,15 +142,15 @@ The below code outputs a list of people with their phone numbers that we can fil
 
 ## Base Challenges
 
-**Goal: Build out your reddit app to gather and display richer data about posts, in a more user-friendly format.**
+**Goal: Build out your prototype to gather and display richer data about the core resource, in a more user-friendly format.**
 
 1. Pluralize the message for your post count. e.g. "4 Posts" or "There are no posts yet"
 1. Use your posts' `created_at` attribute and use the `date` filter to display this time in a format like "posted on Monday April 24, 2015". Hint: use `new Date()`.
 1. Move your individual post formatting into a partial called `_post.html`, and use the `ng-include` directive to format posts as you iterate over them.
 
-**Goal: Update your post form to properly validate user data and display errors.**
+**Goal: Update your form to properly validate user data and display errors.**
 
-1. Update your post form to use `ng-class` for when an input is `$invalid` it should have the `error` class.
+1. Update your form to use `ng-class` for when an input is `$invalid` it should have the `error` class.
 1. Use `ng-show` or `ng-if` to display error message `.alert` if there are returned 400, 300, or 500 messages.
 
 **Goal: Visually distinguish between voted and unvoted on posts.**
@@ -159,7 +159,7 @@ The below code outputs a list of people with their phone numbers that we can fil
 
 ## Stretch Challenge: Filter Posts by Category
 
-**Goal: Set up categories of posts.**
+**Goal: Set up categories of posts or equivalent in your app. **
 
 1. Add an attribute to your posts that gives each post a `category`, and decide 2-3 categories of posts your users might have. e.g "humor", "science", "funny".
 1. Make these categories links that run a function that changes the filter.

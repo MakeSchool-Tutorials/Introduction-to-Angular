@@ -18,7 +18,7 @@ Besides keeping variables in `$scope` we can also expose functions to the templa
 
 ## $scope.createPost()
 
-For your Reddit app, you'll need to create posts. For now, posts will just have two attributes called `title` and `voteCount` they will be added from the top of your app. We can always move this into a `post-new.html` template later once we know how to do routing.
+For your prototype, you'll need to create your main resource (e.g. posts). For this example, I'll use the resource "Post" and it will have two attributes called `title` and `voteCount` they will be added from the top of your app. We can always move this into a `<<RESOURCE>>-new.html` template later once we know how to do routing.
 
 Add the form
 
