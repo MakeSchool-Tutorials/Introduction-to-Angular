@@ -71,9 +71,8 @@ The first build system tools we'll look at are *Task Runners*. Task runners do y
 * [Gulp Tutorial](https://www.youtube.com/watch?v=LmdT2zhFmn4)
 * [Grunt Tutorial (for reference)](https://www.youtube.com/watch?v=TMKj0BxzVgw)
 
-# Module Loaders (or Bundlers)
 
-# Browserify
+# Browserify - Module Loader
 
 As stated in the [Webpack motivation article](http://webpack.github.io/docs/motivation.html), there needs to be a solution to the problem of sending the relevant front end code to the client. [Browserify](http://browserify.org/) attempts to solve the problem of sending the minimum amount of javascript necessary.
 
@@ -85,7 +84,7 @@ The way it works is you can simply use `require()` to add dependencies to your c
 
 Read [this article](http://www.jeromesteunou.net/browserify-why-and-how.html) for more information on Browserify
 
-# Webpack
+# Webpack - Module Loader
 
 Webpack is like browserify but is for more than javascript. Webpack can replace your task runner and preprocessors. It allows you to preprocess all your various front end modules into vanilla HTML, CSS, & JS. It is the module loader of choice for Reactjs.
 
