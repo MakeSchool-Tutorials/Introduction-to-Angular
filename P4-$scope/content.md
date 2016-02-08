@@ -78,6 +78,9 @@ Here's an example for a `userForm`. Using this example as a model, add angular f
 
 By layering on a few conditional css classes and an alert using [ng-if](https://docs.angularjs.org/api/ng/directive/ngIf) and  [ng-class](https://docs.angularjs.org/api/ng/directive/ngClass) you can implement a very delightful, powerful, and flexible form validation. More on these native directives to come.
 
+1. Add a form to your prototype and use `ng-submit` to have the form update `$scope`.
+1. Add angular native validations on submit.
+
 # ngClick
 
 ## $scope.voteUp
@@ -107,8 +110,3 @@ Using the logic from the `createPost()` section, try to make a `voteUp()` functi
 >   ++post.voteCount
 > }
 > ```
-
-# Challenges
-
-1. Add a form to your prototype and use `ng-submit` to have the form update `$scope`.
-1. Use `ng-click` to change something in `$scope`.
