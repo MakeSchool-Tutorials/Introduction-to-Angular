@@ -53,8 +53,8 @@ You can use more and fewer of these in conjunction or use them by themselves. He
 
 1. Bower (just plain old Bower, that's what you have now!)
 1. Bower + Gulp or Grunt
-1. npm + Browserify + Gul
-1. npm + Webpack
+1. npm + Browserify + Gulp
+1. npm + Webpack (What no task runner? npm can be a task runner too!)
 
 # Great Stack Overflow Answer
 

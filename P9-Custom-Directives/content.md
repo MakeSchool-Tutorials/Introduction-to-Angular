@@ -47,6 +47,7 @@ Simple as that!
 Imagine you wanted to make a box that displayed the current weather of a city and reuse the same snippet on various pages for various cities. A directive would be a great solution! Let's look at how you'd build this directive that fetches weather data about a city and displays the weather.
 
 Place this HTML anywhere in your templates:
+
 ```html
 <current-weather city="San Francisco"></current-weather>
 ```

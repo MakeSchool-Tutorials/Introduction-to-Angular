@@ -98,6 +98,7 @@ We're going to turn our `index.html` into a **Layout Template**. Like in Rails, 
 1. Create a new file called `posts.html` and put it in the `templates` folder.
 1. In `index.html`, move the code between the `<body></body>` tags to your new `posts.html` file.
 1. In `index.html` add an `ui-view` directive in the `body`.
+
   ```html
   <body ng-controller="MainCtrl">
         <div ui-view></div>
@@ -127,6 +128,7 @@ We're going to turn our `index.html` into a **Layout Template**. Like in Rails, 
       $urlRouterProvider.otherwise('/');
     }]);
   ```
+
   **Remember** to keep the names of your templates and controllers **RESTful**.
 
 1. Using the above code as a model, add two states to your reddit app.
@@ -158,16 +160,20 @@ Using `ui-router` we will want to access URL parameters in a controller, like wh
 1. Create a new file in your top level called `controllers.js`.
 1. Add the file to your `<head>` tag: `<script src="controllers.js"></script>`
 1. Move your `MainCtrl` from `app.js` to this new file.
+
   ```js
   angular.module('myApp.controllers', [])
     .controller('MainCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
       ...
     }])
   ```
+
 1. Inject `myApp.controllers` in to your app like this:
+
   ```js
     angular.module('myApp', ['ui.router', 'myApp.controllers'])
   ```
+
 1. Move or create your `PostsCtrl` in the `controllers.js` file.
 1. In your `PostsCtrl`, use `$http` to get your posts and display them on the `posts.html` template when the app resolves to the root path (`/`).
 1. Add a link to the title of your posts that links to the `/posts/:postId`.
@@ -175,13 +181,16 @@ Using `ui-router` we will want to access URL parameters in a controller, like wh
   > **Heads up!** Angular has a sort of querk that there is a `#` in urls. So when you want to declare a relative path, you have to prefix it with `#`. e.g. `#/posts/:postId`.
 
 1. Move or create your `PostCtrl` in the `controllers.js` file.
+
   ```js
     .controller('PostCtrl', ['$scope', function($scope) {
 
     }])
   ```
+
 1. Move your `createPost` logic and form template into a separate route, controller, and template called `post-new.html`, `NewPostCtrl`, and `/posts/new`.
 1. After creating a post, redirect to `/` using the `$location` service. Don't forget to inject the service into your controller...
+
   ```js
     $location.path('/');
   ```

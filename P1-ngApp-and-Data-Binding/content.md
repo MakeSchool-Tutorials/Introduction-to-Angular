@@ -87,7 +87,7 @@ Through data binding, Angular binds variables in `$scope` to the DOM and makes t
 
 Please follow along and make the most basic angular app you can:
 
-1. Clone the empty github classroom repo.
+1. Clone the empty [github classroom repo](https://classroom.github.com/assignment-invitations/28340fa8482ea139999b48400955ebab).
 1. Head over to [gitignore.io](https://www.gitignore.io) to generate a OSX .gitignore file. (Watch [this video](https://vimeo.com/70609819) to learn more about .gitignore files.)
 1. `$ touch .gitignore` to create a `.gitignore` file and paste in your OSX Gitignore you generated.
 1. Create a folder for your prototype. In the two root make two files: `index.html` and `app.js`.
@@ -165,7 +165,7 @@ We could just use that Content Delivery Network (CDN) link going forward, but in
     <script src="vendor/angular/angular.min.js"></script>
   </head>
   ```
-  
+
 1. remember to add `vendor` to your `.gitignore` - heroku will run `bower install` upon deployment and get fresh versions of your bower packages in production.
 
 ## Nice Work! On to The Next Article
