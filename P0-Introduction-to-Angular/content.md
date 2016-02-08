@@ -55,7 +55,7 @@ Consider a vanilla Rails app. With each request to the server an HTML template i
 
 Now add a little jQuery, now the client can do some things independently but it still is not state-aware and as a developer you have to wire up every little event and its trigger and outcome.
 
-What if you could put the client in the driver's seat and make it state-aware? Then when you updated state, the view would reflect the change without any extra effort. This is largely the goal of front end frameworks and AngularJS in specific.
+What if you could put the client in the driver's seat and make it state-aware? Then when you updated state, the view would reflect the change without any extra effort. This is largely the goal of front end frameworks and AngularJS specifically.
 
 # Front End Framework Battle Royal - 45min
 
