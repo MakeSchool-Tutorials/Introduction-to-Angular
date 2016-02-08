@@ -1,3 +1,7 @@
+---
+title: "Adding a Build System"
+slug: adding-a-build-system
+---
 
 <hr><br>
 ## Learning Objectives
