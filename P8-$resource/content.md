@@ -22,7 +22,7 @@ Angular’s `$resource` is a native AngularJS service that lets you interact wit
 `$resource` allows you to abstract calls to your API from the controller to services. So this controller code:
 
 ```js
-var url = "http://localhost:3000/posts"
+var url = "http://localhost:3000/api/v1/posts"
 
 $http.get(url).then(
   function (response) {
