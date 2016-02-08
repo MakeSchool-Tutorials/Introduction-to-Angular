@@ -12,6 +12,8 @@ slug: authentication
 
 ### Chapter Summary
 
+> **NOTE** Without a backend we will not be able to fully implement authentication!
+
 With Ruby we learned the Cookie-Session method of authentication; however, there is a better way to do communicate authentication with **Single Page Applications** and a **Service-Based Architecture**. We're going to use an encrypted chunk of JSON called a **JSON Web Token** or JWT (pronounced ''*jot*'') to communicate authentication between client and server.
 
 ![cookie-token-auth](cookie-token-auth.png)

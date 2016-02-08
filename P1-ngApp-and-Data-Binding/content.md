@@ -52,7 +52,7 @@ User narratives are stories where you **get inside the heads of your users**. Th
 Here's an example for a user narrative for a "Yelp for Landlords"
 
 
-> [info] 
+> [info]
 > Hi, I'm Randy the Renter and I'm looking for housing in San Francisco. I found 5 or 6 places on craiglist to live, but I want to see if the landlord is good because I've had trouble in the past with bad landlords. I go to "yelpforlandlords.com" and search by the address of the unit. The landlord comes up. It looks like they are a good landlord, 5 stars and based on the underlying property value, she doesn't gauge the renters. Awesome!
 
 
@@ -61,7 +61,7 @@ By fully **getting inside the head of a user** you can build an app that people 
 Another example:
 
 
-> [info] 
+> [info]
 > Hi, I'm Larry the Landlord and I'm a great landlord and want to read my reviews on yelpforlandlords.com. I visit the page and I look up my name. I find that I have many good reviews and I leave responses like "Thanks! You were a great tenant". On one negative review I try to give context to the problem they had.
 
 
@@ -134,11 +134,14 @@ In jQuery this would be like having a `change()` listener on every single elemen
 We could just use that Content Delivery Network (CDN) link going forward, but in production you'll want to use a frontend package manager like [Bower](http://bower.io/). Bower is a tool twitter made to make it as easy to manage front end packages as Bundler and npm make it to manage back end packages.
 
 1. Install bower globally on your machine and initialize bower (just hit enter for the default options).
+
   ```
   $ npm install bower -g
   $ bower init
   ```
+
 1. Let's add a hidden [bower configuration](http://bower.io/docs/config/) file so we can change the directory where our bower packages save:
+
   ```
   $ touch .bowerrc
   ```
@@ -147,10 +150,13 @@ We could just use that Content Delivery Network (CDN) link going forward, but in
   ```
   { "directory" : "/vendor" }
   ```
+
 1. Now let's install our first package: Angular
+
   ```
   $ bower install angular -save
   ```
+
 1. You should see a `vendor` folder with the angular assets inside. Whoohoo! Next change the CDN link to hit the angular.min.js file in your `vendor` folder.
 
   ```html
@@ -159,6 +165,7 @@ We could just use that Content Delivery Network (CDN) link going forward, but in
     <script src="vendor/angular/angular.min.js"></script>
   </head>
   ```
+  
 1. remember to add `vendor` to your `.gitignore` - heroku will run `bower install` upon deployment and get fresh versions of your bower packages in production.
 
 ## Nice Work! On to The Next Article
