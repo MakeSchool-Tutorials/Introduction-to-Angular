@@ -79,12 +79,15 @@ Think about your data structure. What are your major resources? What are their a
 
 Sketch up your schema.
 
-# Bootstrap Angular - 10min
+# Bootstrap Angular - 20min
 
 Through data binding, Angular binds variables in `$scope` to the DOM and makes the UI of single page applications multiple times less complex.
 
 Please follow along and make the most basic angular app you can:
 
+1. Clone the empty github classroom repo.
+1. Head over to [gitignore.io](https://www.gitignore.io) to generate a OSX .gitignore file. (Watch [this video](https://vimeo.com/70609819) to learn more about .gitignore files.)
+1. `$ touch .gitignore` to create a `.gitignore` file and paste in your OSX Gitignore you generated.
 1. Create a folder for your prototype. In the two root make two files: `index.html` and `app.js`.
 2. For now, ignore `app.js`. In `index.html` add the below code.
 2. In your terminal begin a simple http server. (You can use one you are familiar with or use this command `sudo npm install http-server -g` and call `http-server`). Now open `http://localhost:8080` in your browser.
@@ -154,5 +157,6 @@ We could just use that Content Delivery Network (CDN) link going forward, but in
     <script src="vendor/angular/angular.min.js"></script>
   </head>
   ```
+1. remember to add `vendor` to your `.gitignore` - heroku will run `bower install` upon deployment and get fresh versions of your bower packages in production.
 
 ## Nice Work! On to The Next Article
