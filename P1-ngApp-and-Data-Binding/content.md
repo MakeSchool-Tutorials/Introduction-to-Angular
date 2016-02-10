@@ -147,9 +147,9 @@ We could just use that Content Delivery Network (CDN) link going forward, but in
   ```
 
   `.bowerrc`
-  
+
   ```
-  { "directory" : "/vendor" }
+  { "directory" : "vendor" }
   ```
 
 1. Now let's install our first package: Angular
@@ -157,6 +157,11 @@ We could just use that Content Delivery Network (CDN) link going forward, but in
   ```
   $ bower install angular -save
   ```
+
+> [info]
+> If you are having EACCESS permissions problems with bower run this:
+> `$ sudo chown -R $USER ~/.config`
+> `$ sudo chown -R $USER ~/.cache`
 
 1. You should see a `vendor` folder with the angular assets inside. Whoohoo! Next change the CDN link to hit the angular.min.js file in your `vendor` folder.
 
