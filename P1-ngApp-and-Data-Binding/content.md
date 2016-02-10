@@ -147,6 +147,7 @@ We could just use that Content Delivery Network (CDN) link going forward, but in
   ```
 
   `.bowerrc`
+  
   ```
   { "directory" : "/vendor" }
   ```
