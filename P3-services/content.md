@@ -46,7 +46,7 @@ app.factory('MyService', function () {
 
 # Services for Mocking Data
 
-Let's use a pattern that the Ionic Framework uses to simplify mocking data. Here's an example of `Chats` data mocked in an angular service.
+Let's use a pattern that the Ionic Framework uses to simplify mocking data. Here's an example of `Chats` data mocked in an angular service. You can add this to a separate file called `services.js` or you can add just the factory to your `app.js`.
 
 ```js
 angular.module('myApp.services', [])
